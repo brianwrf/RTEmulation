@@ -17,16 +17,10 @@ It is a repository for Red Team emulation based on MITRE ATT&amp;CK.
 
 ---
 * **ID**: T1053
-* **Tactic**:
-* **Platform**:
-* **Required Permissions**:
-* **Data Sources**:
-
+* **Source**: <https://attack.mitre.org/techniques/T1053/>
 ---
 
-# Description
-
-# Detection
+# Details
 
 # References
 
