@@ -1,0 +1,2 @@
+code = "<insert your shellcode in base64>";
+o.Run(code);
